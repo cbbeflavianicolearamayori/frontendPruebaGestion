@@ -15,18 +15,11 @@ import * as SecureStore from 'expo-secure-store';
 import { useRouter, Stack } from 'expo-router';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-/*if (Platform.OS === 'android') {
-  determinedApiBaseUrl = 'http://192.168.0.167:3001/api';
-  } else if (Platform.OS === 'ios') {
-    determinedApiBaseUrl = 'http://192.168.0.167:3001/api';
-    } else { 
-      determinedApiBaseUrl = 'http://localhost:3001/api';
-  }
-  */
- //const API_BASE_URL =  'https://unifrontend.onrender.com';
+
  
- 
- const API_BASE_URL = 'https://backendgestion-production-e2aa.up.railway.app';
+ //const API_BASE_URL = 'https://backendpruebagestion-production.up.railway.app/';
+ const API_BASE_URL = 'https://backendpruebagestion-production.up.railway.app';
+
  let determinedApiBaseUrl= API_BASE_URL;
 
 
